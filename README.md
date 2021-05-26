@@ -1,5 +1,5 @@
 # internship
-This is responsive website with different layout for devices of different sizes. It is just a basic UI with some dummy data.
+This is responsive website with different layout for devices of different sizes. It is just a basic UI and hover effect with some dummy data.
 
 The packages used are :
 
