@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Internship</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section class="header">
+		<nav>
+			<a href="index.html">
+				<img src="images/logo.png">
+			</a>
+			<div class="nav-links" id="navlinks">
+				
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="">UPCOMING LESSONS</a></li>
+					<li><a href="">TASKS</a></li>
+					<li><a href="">LEADER BOARD</a></li>
+					<li><a href="">MY COURSES</a></li>
+					<li><a href="">ANALYTICS</a></li>
+					<li><a href="">TIMETABLE</a></li>
+					<li><a href="">HOMEWORK PROGRESS</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()" ></i>
+
+		</nav>
+		<div class="textbox">
+			<h1>Welcome to xyz university!</h1>
+			<p>Here one can access various aspects of the university curriculum.</p>
+			<a href="" class="button">CLICK HERE TO VIEW THE COURSES!</a>
+		</div>
+	</section>
+	
+	<section class="footer">
+		<h4>ABOUT US</h4>
+		<P>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat.</P>
+		<div class="icon">
+			<i class="fa fa-facebook-square"></i>
+			<i class="fa fa-twitter-square"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-linkedin-square"></i>
+
+		</div>
+	</section>
+	<script> 
+			var navlinks=document.getElementById("navlinks");
+			
+			function showMenu(){
+				navlinks.style.display="block";
+				navlinks.style.right= "0";
+			}
+			function hideMenu(){
+				navlinks.style.right= "-400px";
+				navlinks.style.display="none";
+			}
+	</script>
+</body>
+</html>
+
+
